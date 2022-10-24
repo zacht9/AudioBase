@@ -16,7 +16,7 @@ import {Buffer} from 'buffer';
 
 /* Important variables for authorization process, derived from secrets.js */
 export const base_64 = Buffer.from(client_id + ":" + client_secret).toString('base64');
-export const origin = home_uri;
+export const origin = home_uri || "http://localhost:3000";
 export const authLink = `https://accounts.spotify.com/authorize?client_id=${encodeURI(client_id)}&response_type=code&redirect_uri=${encodeURI(
   redirect_uri
 )}&scope=user-library-read%20playlist-read-private%20user-top-read%20user-read-recently-played&show_dialog=true`;
