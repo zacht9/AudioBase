@@ -1,0 +1,53 @@
+table,
+th,
+td {
+  border: 1px solid dimgray;
+  border-collapse: collapse;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: center;
+  padding: 5px;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+td {
+  position: relative;
+}
+
+.sortBtn {
+  margin: 1px;
+}
+
+button {
+  background-color: #0b5ed7;
+  color: white;
+  border: 1px;
+  border-color: black;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-family: 'Segoe UI Light';
+  font-size: 11px;
+  cursor: pointer;
+  border-style: solid;
+  width: 100px;
+}
+
+button:enabled:hover {
+  background-color: #0d6efd;
+  border-color: white;
+}
+
+button:enabled:focus {
+  border-color: #01FF87;
+}
+
+button:disabled {
+  background-color: dimgray;
+}
+
+

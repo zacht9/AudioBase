@@ -1,0 +1,10 @@
+h1 {
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 1rem;
+    font-size: 2rem;
+    background: none;
+}
